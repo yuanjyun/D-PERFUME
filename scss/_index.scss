@@ -1,0 +1,27 @@
+.banner{
+    height:870px;
+    background:url("../img/photo-1588159343745-445ae0b16383.png");
+    background-size: cover;
+}
+@media (max-width:768px){
+    .banner{
+        height:480px;
+        background:url("../img/photo-1588159343745-445ae0b16383.png");
+        background-size:cover;
+    }
+}
+.soldout{
+    position: relative;
+    img{
+        background:url("../img/photo-1559264730-1533a6ec0433.png");
+    }
+    .txt{
+        position: absolute;
+        top:40%;
+        right:35%;
+    }
+}
+
+
+
+
